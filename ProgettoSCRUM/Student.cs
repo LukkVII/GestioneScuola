@@ -52,18 +52,16 @@ namespace ProgettoSCRUM
             Voti.Add(new Voto(materia, valore, data));
         }
 
-        public void MostraTuttiIVoti()
+        public string MostraVoti()
         {
-            if (Voti.Count == 0)
-            {
-                Console.WriteLine("Nessun voto disponibile.");
-                return;
-            }
+            if (Voti.Count == 0) return "Nessun voto disponibile.";
 
+            string risultato = $"Voti di {Name} {Surname}:\n";
             foreach (var voto in Voti)
             {
-                Console.WriteLine(voto.ToString());
+                risultato += voto.ToString() + "\n";
             }
+            return risultato;
         }
 
         public void MostraVotiPerMateria(string nomeMateria)

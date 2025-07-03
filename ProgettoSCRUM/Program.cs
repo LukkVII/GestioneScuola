@@ -24,7 +24,7 @@ namespace ProgettoSCRUM
             {
                 int choice;
 
-                Console.WriteLine("MENU");
+                Console.WriteLine("\nMENU");
                 Console.WriteLine("1. Aggiungi studente");
                 Console.WriteLine("2. Rimuovi studente");
                 Console.WriteLine("3. Cerca studente per numero di matricola");
@@ -32,14 +32,13 @@ namespace ProgettoSCRUM
                 Console.WriteLine("5. Upload file archivio");
                 Console.WriteLine("6. Aggiornamento file archivio");
                 Console.WriteLine("7. Ordina secondo criterio selezionato");
-                //Console.WriteLine("8. Inserisci voto");
-                //Console.WriteLine("9. Rimuovi voto");
-                //Console.WriteLine("10. Visualizza voti per studente");
+                Console.WriteLine("8. Inserisci voto");
+                Console.WriteLine("9. Visualizza voti per studente");
                 Console.WriteLine("0. Esci");
 
 
                 int.TryParse(Console.ReadLine(), out choice);
-                if (choice > 7 && choice < 0)
+                if (choice > 9 && choice < 0)
                 {
                     Console.WriteLine("Inserimento non valido");
                     continue;
@@ -126,13 +125,20 @@ namespace ProgettoSCRUM
                         }
                         break;
 
+                    case 9:
+                        Console.Write("Inserisci ID studente per vedere i voti: ");
+                        string idInput = Console.ReadLine();
+
+                        classroom.VisualizzaVotiStudente(idInput);
+                        break;
+
                 }
             }
             }
 
         public static bool AddStudent(Classroom classroom)
         {
-            Console.WriteLine("Inserire nome: ");
+            Console.WriteLine("\nInserire nome: ");
             string name;
 
             while (true)
@@ -142,7 +148,7 @@ namespace ProgettoSCRUM
                 Console.WriteLine("Inserimento non corretto, riprova");
             }
 
-            Console.WriteLine("Inserire cognome: ");
+            Console.WriteLine("\nInserire cognome: ");
             string surname;
 
             while (true)
@@ -152,7 +158,7 @@ namespace ProgettoSCRUM
                 Console.WriteLine("Inserimento non corretto, riprova");
             }
 
-            Console.WriteLine("Inserire anno di nascita: ");
+            Console.WriteLine("\nInserire anno di nascita: ");
             int birthYear;
 
             while (true)
@@ -162,7 +168,7 @@ namespace ProgettoSCRUM
             }
 
 
-            Console.WriteLine("Inserire ID: ");
+            Console.WriteLine("\nInserire ID: ");
             string studentID;
 
             while (true)
@@ -194,7 +200,7 @@ namespace ProgettoSCRUM
 
         public static void SearchStudent(Classroom classroom)
         {
-            Console.WriteLine("Inserire ID dello studente da rimuovere: ");
+            Console.WriteLine("Inserire ID dello studente da cercare: ");
             string ID;
 
             while (true)
@@ -226,7 +232,7 @@ namespace ProgettoSCRUM
 
         public static void PrintOrdered(Classroom classroom)
         {
-            Console.WriteLine("Scegli criterio ordinamento: ");
+            Console.WriteLine("\nScegli criterio ordinamento: ");
             Console.WriteLine("1. Name");
             Console.WriteLine("2. Surname");
             Console.WriteLine("3. BirthYear");

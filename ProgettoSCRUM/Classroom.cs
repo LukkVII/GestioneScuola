@@ -10,13 +10,13 @@ namespace ProgettoSCRUM
     {
         private List<Student> students = new List<Student>();
         private List<Materia> materie = new List<Materia>();
-        //public List<Voto> voti;
 
         public Classroom()
         {
             materie.Add(new Materia("Matematica", "MAT01"));
             materie.Add(new Materia("Italiano", "ITA02"));
             materie.Add(new Materia("Inglese", "ING03"));
+            materie.Add(new Materia("Storia", "STO04"));
         }
 
 
@@ -59,7 +59,6 @@ namespace ProgettoSCRUM
         }
 
 
-        //ordina studenti
         public void Order(string parameter)
         {
             if (parameter == "Name")
@@ -78,8 +77,6 @@ namespace ProgettoSCRUM
             }
         }
 
-
-        //elenco studenti
         public override string ToString()
         {
             string ris = "";
@@ -117,7 +114,7 @@ namespace ProgettoSCRUM
             Console.WriteLine($"\nVoto {valore} aggiunto a {studente.Name} {studente.Surname} per {materia.Nome}.");
         }
 
-        public void MostraVotiStudente(string idStudente, string materia = null)
+        public void VisualizzaVotiStudente(string idStudente)
         {
             Student studente = SearchStudent(idStudente);
 
@@ -127,14 +124,7 @@ namespace ProgettoSCRUM
                 return;
             }
 
-            if (materia == null)
-            {
-                studente.MostraTuttiIVoti();
-            }
-            else
-            {
-                studente.MostraVotiPerMateria(materia);
-            }
+            Console.WriteLine(studente.MostraVoti());
         }
 
         public bool AggiungiMateria(Materia materia)
