@@ -84,6 +84,47 @@ namespace ProgettoSCRUM
                         PrintOrdered(classroom);
                         break;
 
+                    case 8:
+                        Console.WriteLine("\nMaterie disponibili:");
+                        foreach (var mat in classroom.GetMaterie())
+                        {
+                            Console.WriteLine($"- {mat.Nome}");
+                        }
+
+                        Console.Write("\nInserisci materia: ");
+                        string materiaInput = Console.ReadLine();
+
+                        Materia materiaSelezionata = classroom.CercaMateria(materiaInput);
+
+                        if (materiaSelezionata == null)
+                        {
+                            Console.WriteLine("Materia non valida.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nStudenti disponibili:");
+                            foreach (var studente in classroom.GetStudents())
+                            {
+                                Console.WriteLine($"{studente.Name} {studente.Surname} --> ID: {studente.IdStudente}");
+                            }
+
+                            Console.Write("\nInserisci ID Studente: ");
+                            string idStudenteInput = Console.ReadLine();
+
+                            Student studenteSelezionato = classroom.SearchStudent(idStudenteInput);
+
+                            if (studenteSelezionato == null)
+                            {
+                                Console.WriteLine("ID Studente non valido o studente non trovato.");
+                                return;
+                            }
+
+                            Console.Write("Inserisci voto: ");
+                            double votoValore = double.Parse(Console.ReadLine());
+
+                            classroom.AggiungiVoto(idStudenteInput, materiaInput, votoValore, DateTime.Now);
+                        }
+                        break;
 
                 }
             }
@@ -215,8 +256,6 @@ namespace ProgettoSCRUM
 
             Console.WriteLine(classroom.ToString());
         }
-
-
 
     }
     }

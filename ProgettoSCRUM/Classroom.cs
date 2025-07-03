@@ -9,7 +9,16 @@ namespace ProgettoSCRUM
     public class Classroom
     {
         private List<Student> students = new List<Student>();
+        private List<Materia> materie = new List<Materia>();
         //public List<Voto> voti;
+
+        public Classroom()
+        {
+            materie.Add(new Materia("Matematica", "MAT01"));
+            materie.Add(new Materia("Italiano", "ITA02"));
+            materie.Add(new Materia("Inglese", "ING03"));
+        }
+
 
 
         public bool AddStudent(Student student)
@@ -81,19 +90,31 @@ namespace ProgettoSCRUM
             return ris;
         }
 
+        public List<Student> GetStudents()
+        {
+            return students;
+        }
 
-        public void AggiungiVoto(string idStudente, Materia materia, double valore, DateTime data)
+
+        public void AggiungiVoto(string idStudente, string nomeMateria, double valore, DateTime data)
         {
             Student studente = SearchStudent(idStudente);
-            if (studente != null)
-            {
-                studente.AggiungiVoto(materia, valore, data);
-                Console.WriteLine($"Voto aggiunto a {studente.Name} {studente.Surname} per {materia}: {valore}");
-            }
-            else
+            Materia materia = CercaMateria(nomeMateria);
+
+            if (studente == null)
             {
                 Console.WriteLine("Studente non trovato.");
+                return;
             }
+
+            if (materia == null)
+            {
+                Console.WriteLine("Materia non trovata.");
+                return;
+            }
+
+            studente.AggiungiVoto(materia, valore, data);
+            Console.WriteLine($"\nVoto {valore} aggiunto a {studente.Name} {studente.Surname} per {materia.Nome}.");
         }
 
         public void MostraVotiStudente(string idStudente, string materia = null)
@@ -116,6 +137,23 @@ namespace ProgettoSCRUM
             }
         }
 
-       
+        public bool AggiungiMateria(Materia materia)
+        {
+            if (materie.Any(m => m.Nome.Equals(materia.Nome, StringComparison.OrdinalIgnoreCase)))
+                return false;
+
+            materie.Add(materia);
+            return true;
+        }
+
+        public List<Materia> GetMaterie()
+        {
+            return materie;
+        }
+
+        public Materia CercaMateria(string nomeMateria)
+        {
+            return materie.FirstOrDefault(m => m.Nome.Equals(nomeMateria, StringComparison.OrdinalIgnoreCase));
+        }
     }
 }

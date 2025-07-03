@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Student.cs",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\Student.cs",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Student.cs",
+              "RelativeToolTip": "ProgettoSCRUM\\Student.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:21:57.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\Program.cs",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
+              "RelativeToolTip": "ProgettoSCRUM\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:20:34.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Classroom.cs",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Classroom.cs",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\Classroom.cs",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Classroom.cs",
+              "RelativeToolTip": "ProgettoSCRUM\\Classroom.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:18:41.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

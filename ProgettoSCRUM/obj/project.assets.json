@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\ProgettoSCRUM\\ProgettoSCRUM.csproj",
+      "projectUniqueName": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\ProgettoSCRUM.csproj",
       "projectName": "ProgettoSCRUM",
-      "projectPath": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\ProgettoSCRUM\\ProgettoSCRUM.csproj",
+      "projectPath": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\ProgettoSCRUM.csproj",
       "packagesPath": "C:\\Users\\user12_14_1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\ProgettoSCRUM\\obj\\",
+      "outputPath": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
