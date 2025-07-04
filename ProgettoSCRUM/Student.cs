@@ -39,13 +39,10 @@ namespace ProgettoSCRUM
             return new Student(campi[0], campi[1], int.Parse(campi[2]), campi[3]);
         }
 
-        
-
         public override string ToString()
         {
             return $"Nome: {Name}, Cognome: {Surname}, Anno di nascita: {BirthYear}, ID: {IdStudente}";
         }
-
 
         public void AggiungiVoto(Materia materia, double valore, DateTime data)
         {
@@ -56,7 +53,7 @@ namespace ProgettoSCRUM
         {
             if (Voti.Count == 0) return "Nessun voto disponibile.";
 
-            string risultato = $"Voti di {Name} {Surname}:\n";
+            string risultato = $"\nVoti di {Name} {Surname}:\n";
             foreach (var voto in Voti)
             {
                 risultato += voto.ToString() + "\n";
@@ -64,21 +61,21 @@ namespace ProgettoSCRUM
             return risultato;
         }
 
-        public void MostraVotiPerMateria(string nomeMateria)
-        {
-            var votiMateria = Voti.Where(v => v.Materia.Nome.Equals(nomeMateria, StringComparison.OrdinalIgnoreCase)).ToList();
+        //public void MostraVotiPerMateria(string nomeMateria)
+        //{
+        //    var votiMateria = Voti.Where(v => v.Materia.Nome.Equals(nomeMateria, StringComparison.OrdinalIgnoreCase)).ToList();
 
-            if (votiMateria.Count == 0)
-            {
-                Console.WriteLine($"Nessun voto trovato per la materia {nomeMateria}.");
-                return;
-            }
+        //    if (votiMateria.Count == 0)
+        //    {
+        //        Console.WriteLine($"Nessun voto trovato per la materia {nomeMateria}.");
+        //        return;
+        //    }
 
-            foreach (var voto in votiMateria)
-            {
-                Console.WriteLine(voto.ToString());
-            }
-        }
+        //    foreach (var voto in votiMateria)
+        //    {
+        //        Console.WriteLine(voto.ToString());
+        //    }
+        //}
     }
 
     }

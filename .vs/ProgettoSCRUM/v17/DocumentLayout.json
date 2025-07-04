@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\elencostudenti.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\elencostudenti.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\voto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\voto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|c:\\users\\user12_14_1\\desktop\\progettoscrum\\progettoscrum\\gestionescuola\\progettoscrum\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBF5E72D-FC66-4AB0-B462-543FC8828B80}|ProgettoSCRUM\\ProgettoSCRUM.csproj|solutionrelative:progettoscrum\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,32 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Student.cs",
               "RelativeDocumentMoniker": "ProgettoSCRUM\\Student.cs",
               "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Student.cs",
               "RelativeToolTip": "ProgettoSCRUM\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T18:21:57.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
-              "RelativeDocumentMoniker": "ProgettoSCRUM\\Program.cs",
-              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
-              "RelativeToolTip": "ProgettoSCRUM\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwOgAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Voto.cs",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Voto.cs",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\Voto.cs",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Voto.cs",
+              "RelativeToolTip": "ProgettoSCRUM\\Voto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T18:20:34.885Z",
+              "WhenOpened": "2025-07-04T12:05:53.291Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +66,35 @@
               "RelativeDocumentMoniker": "ProgettoSCRUM\\Classroom.cs",
               "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Classroom.cs",
               "RelativeToolTip": "ProgettoSCRUM\\Classroom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T18:18:41.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\Program.cs",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\Program.cs",
+              "RelativeToolTip": "ProgettoSCRUM\\Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwE4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:20:34.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "elencoStudenti.txt",
+              "DocumentMoniker": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\elencoStudenti.txt",
+              "RelativeDocumentMoniker": "ProgettoSCRUM\\elencoStudenti.txt",
+              "ToolTip": "C:\\Users\\user12_14_1\\Desktop\\ProgettoSCRUM\\ProgettoSCRUM\\GestioneScuola\\ProgettoSCRUM\\elencoStudenti.txt",
+              "RelativeToolTip": "ProgettoSCRUM\\elencoStudenti.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-04T12:06:08.104Z",
               "EditorCaption": ""
             }
           ]

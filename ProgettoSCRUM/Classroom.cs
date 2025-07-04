@@ -28,7 +28,6 @@ namespace ProgettoSCRUM
             return true;
         }
 
-
         public bool RemoveStudent(string idStudente)
         {
             if (students.Any(x => x.IdStudente == idStudente))
@@ -39,13 +38,10 @@ namespace ProgettoSCRUM
             return false;
         }
 
-
         public Student SearchStudent(string idStudente)
         {
             return students.Find(s => s.IdStudente.Equals(idStudente, StringComparison.OrdinalIgnoreCase));
         }
-
-
 
         public string[] GenerateRows()
         {
@@ -57,7 +53,6 @@ namespace ProgettoSCRUM
 
             return rows;
         }
-
 
         public void Order(string parameter)
         {
@@ -91,7 +86,6 @@ namespace ProgettoSCRUM
         {
             return students;
         }
-
 
         public void AggiungiVoto(string idStudente, string nomeMateria, double valore, DateTime data)
         {
@@ -127,14 +121,14 @@ namespace ProgettoSCRUM
             Console.WriteLine(studente.MostraVoti());
         }
 
-        public bool AggiungiMateria(Materia materia)
-        {
-            if (materie.Any(m => m.Nome.Equals(materia.Nome, StringComparison.OrdinalIgnoreCase)))
-                return false;
+        //public bool AggiungiMateria(Materia materia)
+        //{
+        //    if (materie.Any(m => m.Nome.Equals(materia.Nome, StringComparison.OrdinalIgnoreCase)))
+        //        return false;
 
-            materie.Add(materia);
-            return true;
-        }
+        //    materie.Add(materia);
+        //    return true;
+        //}
 
         public List<Materia> GetMaterie()
         {

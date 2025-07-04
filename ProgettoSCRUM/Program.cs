@@ -34,7 +34,7 @@ namespace ProgettoSCRUM
                 Console.WriteLine("7. Ordina secondo criterio selezionato");
                 Console.WriteLine("8. Inserisci voto");
                 Console.WriteLine("9. Visualizza voti per studente");
-                Console.WriteLine("0. Esci");
+                Console.WriteLine("0. Esci\n");
 
 
                 int.TryParse(Console.ReadLine(), out choice);
@@ -50,16 +50,16 @@ namespace ProgettoSCRUM
                 {
                     case 1:
                         if (AddStudent(classroom))
-                            Console.WriteLine("Studente aggiunto con successo!");
+                            Console.WriteLine("\nStudente aggiunto con successo!");
                         else
-                            Console.WriteLine("Studente già presente, impossibile aggiungere");
+                            Console.WriteLine("\nStudente già presente, impossibile aggiungere");
                         break;
 
                     case 2:
                         if (RemoveStudent(classroom))
-                            Console.WriteLine("Studente rimosso con successo!");
+                            Console.WriteLine("\nStudente rimosso con successo!");
                         else
-                            Console.WriteLine("Studente non presente, impossibile rimuovere.");
+                            Console.WriteLine("\nStudente non presente, impossibile rimuovere.");
                         break;
 
                     case 3:
@@ -76,7 +76,7 @@ namespace ProgettoSCRUM
 
                     case 6:
                         FileUpdate(classroom);
-                        Console.WriteLine("Aggiornamento completato!");
+                        Console.WriteLine("\nAggiornamento completato!");
                         break;
 
                     case 7:
